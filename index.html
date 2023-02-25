@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>COMPRUEBA/CALCULA LA LETRA DE TU DNI</title>
+  </head>
+  <body>
+    <div class="cont">
+      <h1>CALCULA TU DNI</h1>
+      <form id="form">
+        <p>DNI:</p>
+        <span>Introduce los números de tu DNI</span>
+        <br />
+        <input type="text" id="dni" maxlenght="8" />
+        <br />
+        <p>LETRA:</p>
+        <span>Introduce la letra de tu DNI</span>
+        <br />
+        <input type="text" id="letra" maxlenght="1" />
+        <br />
+        <input type="button" id="check" value="Aceptar" onclick="resto()" />
+      </form>
+    </div>
+    <div class="resultado">
+      <h3>LA LETRA DEL DNI INDICADA</h3>
+      <p id="resultado"></p>
+      <br />
+      <h3>TU NÚMERO DE DNI COMPLETO ES</h3>
+      <h1 id="nif"></h1>
+    </div>
+  </body>
+  <footer>
+    <div class="pie">
+      <h3>Práctica con Javascript</h3>
+      <h5>Gema Adame Prudencio</h5>
+    </div>
+  </footer>
+</html>
